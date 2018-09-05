@@ -56,7 +56,7 @@
         }
 
         .container figure {
-            margin: 0;
+            margin: 20px 0 0 0;
             background-position: center;
             background-size: 75px;
             background-image: url(dorito.png);
@@ -65,18 +65,27 @@
             -webkit-animation-name: fadeInLeftBig;
             animation-name: fadeInLeftBig;
             animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        .lucy figure {
+            margin: 0;
+            background-position: center;
+            background-size: 150px;
+            background-image: url(hungry-lucy.png);
+            width: 30%;
+            height: 150px;
         }
     </style>
 </head>
 
 <body class="pinkish">
     <h1>This is Lucy's site!</h1>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="wrapper">
         <div class="container">
+            <figure></figure>
+        </div>
+        <div class="lucy">
             <figure></figure>
         </div>
     </div>
