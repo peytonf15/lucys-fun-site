@@ -23,16 +23,6 @@
             transform: translateX(100%);
         }
 
-        .wrap {
-            margin: 30px auto;
-            max-width: 1000px;
-            width: 90vw;
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-            font-family: sans-serif;
-        }
-
         .pinkish {
             background-color: rgba(241, 146, 194, .8);
         }
@@ -41,13 +31,6 @@
             background-color: rgba(56, 207, 248, 0.5);
         }
 
-        .container {
-            width: 0;
-            height: 0;
-            border-left: 60px solid transparent;
-            border-right: 60px solid transparent;
-            border-bottom: 60px solid transparent;
-        }
 
         .container figure {
             margin: 0;
@@ -62,7 +45,7 @@
 
 <body class="pinkish">
     <h1>This is Lucy's site!</h1>
-    <div class="container">
+    <div class="container translateX">
         <figure></figure>
     </div>
 </body>
