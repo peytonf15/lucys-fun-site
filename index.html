@@ -23,8 +23,8 @@
 
             to {
                 opacity: 1;
-                -webkit-transform: translate3d(200px, 0, 0);
-                transform: translate3d(200px, 0, 0);
+                -webkit-transform: translate3d(2000px, 0, 0);
+                transform: translate3d(2000px, 0, 0);
             }
         }
 
@@ -37,8 +37,8 @@
 
             to {
                 opacity: 1;
-                -webkit-transform: translate3d(200px, 0, 0);
-                transform: translate3d(200px, 0, 0);
+                -webkit-transform: translate3d(2000px, 0, 0);
+                transform: translate3d(2000px, 0, 0);
             }
         }
 
@@ -50,6 +50,10 @@
             background-color: rgba(56, 207, 248, 0.5);
         }
 
+        .wrapper {
+            width: 90%;
+            margin: auto;
+        }
 
         .container figure {
             margin: 0;
@@ -57,7 +61,7 @@
             background-size: cover;
             background-image: url(dorito.png);
             width: 25%;
-            line-height: 150px;
+            height: 150px;
             -webkit-animation-name: fadeInLeftBig;
             animation-name: fadeInLeftBig;
             animation-duration: 3s;
@@ -67,8 +71,10 @@
 
 <body class="pinkish">
     <h1>This is Lucy's site!</h1>
-    <div class="container">
-        <figure></figure>
+    <div class="wrapper">
+        <div class="container">
+            <figure></figure>
+        </div>
     </div>
 </body>
 
