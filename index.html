@@ -14,13 +14,37 @@
             text-align: center;
         }
 
-        .translateX {
-            transform: translateX(3);
-            transition: transform 0.5s ease;
+        @-webkit-keyframes fadeInLeftBig {
+            from {
+                opacity: 0;
+                -webkit-transform: translate3d(-2000px, 0, 0);
+                transform: translate3d(-2000px, 0, 0);
+            }
+
+            to {
+                opacity: 1;
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
         }
 
-        .container:hover .translateX {
-            transform: translateX(100%);
+        @keyframes fadeInLeftBig {
+            from {
+                opacity: 0;
+                -webkit-transform: translate3d(-2000px, 0, 0);
+                transform: translate3d(-2000px, 0, 0);
+            }
+
+            to {
+                opacity: 1;
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+        }
+
+        .fadeInLeftBig {
+            -webkit-animation-name: fadeInLeftBig;
+            animation-name: fadeInLeftBig;
         }
 
         .pinkish {
@@ -45,7 +69,7 @@
 
 <body class="pinkish">
     <h1>This is Lucy's site!</h1>
-    <div class="container translateX">
+    <div class="container fadeInLeftBig">
         <figure></figure>
     </div>
 </body>
