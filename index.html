@@ -45,22 +45,23 @@
             background-color: rgba(56, 207, 248, 0.5);
         }
 
-        .box {
-            width: 12.5%;
-            margin: 20px 20px;
-            cursor: pointer;
-            align-content: center;
-            line-height: 120px;
+        .container {
+            figure {
+                margin: 0;
+                background-position: center;
+                background-size: cover;
+                background-image: url(dorito.png);
+                width: 100%;
+                height: 200px;
+            }
         }
     </style>
 </head>
 
 <body class="pinkish">
     <h1>This is Lucy's site!</h1>
-    <div class="box">
-        <div class="blue translateX">
-            <img src="dorito.png" alt="Dorito chip">
-        </div>
+    <div class="container">
+        <figure></figure>
     </div>
 </body>
 
