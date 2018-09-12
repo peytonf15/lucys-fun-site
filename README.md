@@ -6,4 +6,4 @@ Further functionality would be to incorporate a button that would continue to sp
 
 Lastly, would be to build a counter that displays the total amount of doritos Lucy has eaten. 
 
-Purely for fun! 
+Purely for fun! Site published at: https://peytonf15.github.io/lucys-fun-site/
